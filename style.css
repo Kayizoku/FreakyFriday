@@ -5,6 +5,7 @@
 }
 
 body{
+	font-family: 'Raleway', Roboto, sans-serif;
 	font-size: 18px;
 	color: black;
 	line-height: 1.6em;
@@ -12,6 +13,7 @@ body{
 
 /* SHOWCASE */
 #showcase {
+	font: arial;
 	position: relative;
 	background-image: url("Hawaii.jpg");/*fetched from http://www.mulierchile.com/assets/download.php?file=/free-hawaii-wallpaper/free-hawaii-wallpaper-012.jpg*/
 	width: auto;
@@ -38,11 +40,12 @@ body{
 #showcase p{
 	color: white;
 	font-size: 25px;
-	text-shadow: 2px 2px 2px #333;
+	text-shadow: 1px 1px 1px #333;
 	
 }
 
 #showcase .button{
+	text-transform: uppercase;
 	background-color: rgba(224, 224, 224, 0.44);
 	font: cursive;
 	font-weight: bold;
@@ -91,6 +94,7 @@ body{
 }
 
 #footer .button{
+	text-transform: uppercase;
 	font-size: 20px;
 	text-decoration: none;
 	color: #fff;
