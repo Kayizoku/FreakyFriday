@@ -12,20 +12,19 @@ body{
 
 /* SHOWCASE */
 #showcase {
+	position: relative;
 	background-image: url("Hawaii.jpg");/*fetched from http://www.mulierchile.com/assets/download.php?file=/free-hawaii-wallpaper/free-hawaii-wallpaper-012.jpg*/
 	width: auto;
 	background-position: center;
 	background-repeat: no-repeat;
 	height: 100vh;
-	margin-left: auto;
-	margin-right: auto;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	text-align: center;
 	align-items: center;
 	padding: 0 20px;
-	padding-left: 20px;
+	
 }
 
 #showcase h1{
